@@ -9,8 +9,8 @@ using gustav_v2.db_context;
 namespace gustav_v2.Migrations
 {
     [DbContext(typeof(AdvertContext))]
-    [Migration("20201128081017_addOwner")]
-    partial class addOwner
+    [Migration("20201211201524_User")]
+    partial class User
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -60,6 +60,30 @@ namespace gustav_v2.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Advert");
+                });
+
+            modelBuilder.Entity("gustav_v2.entity.User", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Phone")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Surname")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Users");
                 });
 #pragma warning restore 612, 618
         }

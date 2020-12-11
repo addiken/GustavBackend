@@ -45,6 +45,7 @@ namespace gustav_v2.Controllers
         [Route("api/CreateAdvert")]
         public void CreateAdvert(CreateAdvertRequest request)
         {
+            ValidateUser(request.Phone, request.Password);
             Advert advert = new Advert
             {
                 District = request.District,
@@ -69,6 +70,7 @@ namespace gustav_v2.Controllers
         [Route("api/EditAdvert")]
         public void EditTask(EditAdvertRequest request)
         {
+            ValidateUser(request.Phone, request.Password);
             Advert advert = new Advert
             {
                 Id = request.Id,
@@ -92,14 +94,24 @@ namespace gustav_v2.Controllers
         
         [HttpDelete]
         [Route("api/DeleteAdvert")]
-        public void DeleteTask(int id)
+        public void DeleteTask(int id, string phone, string password)
         {
+            ValidateUser(phone, password);
             using (AdvertContext db = new AdvertContext())
             {
                 Advert advert = db.Advert.Find(id);
                 if (advert != null){ db.Advert.Remove(advert); }
                 db.SaveChanges();
             }
+        }
+
+        private void ValidateUser(string phone, string password)
+        {
+            if (!phone.Equals("9788618697") || !password.Equals("password"))
+            {
+                throw new UnauthorizedAccessException();
+            }
+            
         }
     }
 }

@@ -9,7 +9,7 @@ using gustav_v2.db_context;
 namespace gustav_v2.Migrations
 {
     [DbContext(typeof(AdvertContext))]
-    [Migration("20201128074035_InitialCreate")]
+    [Migration("20201211193925_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -41,6 +41,12 @@ namespace gustav_v2.Migrations
 
                     b.Property<int>("HouseNumber")
                         .HasColumnType("int");
+
+                    b.Property<string>("OwnerName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long>("OwnerPhone")
+                        .HasColumnType("bigint");
 
                     b.Property<long>("Price")
                         .HasColumnType("bigint");

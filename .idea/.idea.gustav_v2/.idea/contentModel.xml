@@ -2,27 +2,33 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\alexb\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\alexb\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_gustav_v2.1982039539.00" t="ExcludeRecursive" />
-    <e p="C:\Users\alexb\RiderProjects\gustav_v2" t="IncludeRecursive">
+    <e p="C:\Users\alexb\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_gustav_v2.2069706412.00" t="ExcludeRecursive" />
+    <e p="C:\Users\alexb\AppData\Roaming\JetBrains\Rider2020.2\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\alexb\AppData\Roaming\JetBrains\Rider2020.2\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\alexb\RiderProjects\GustavBackend" t="IncludeRecursive">
       <e p="appsettings.Development.json" t="Include" />
       <e p="appsettings.json" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="Controllers" t="Include">
         <e p="AdvertController.cs" t="Include" />
+        <e p="UserController.cs" t="Include" />
       </e>
       <e p="db context" t="Include">
         <e p="AdvertContext.cs" t="Include" />
       </e>
       <e p="entity" t="Include">
         <e p="Advert.cs" t="Include" />
+        <e p="User.cs" t="Include" />
       </e>
       <e p="gustav_v2.csproj" t="IncludeRecursive" />
       <e p="gustav_v2.sln" t="IncludeFlat" />
       <e p="Migrations" t="Include">
-        <e p="20201128074035_InitialCreate.cs" t="Include" />
-        <e p="20201128074035_InitialCreate.Designer.cs" t="Include" />
-        <e p="20201128081017_addOwner.cs" t="Include" />
-        <e p="20201128081017_addOwner.Designer.cs" t="Include" />
+        <e p="20201211193925_InitialCreate.cs" t="Include" />
+        <e p="20201211193925_InitialCreate.Designer.cs" t="Include" />
+        <e p="20201211201524_User.cs" t="Include" />
+        <e p="20201211201524_User.Designer.cs" t="Include" />
+        <e p="20201211202514_UserUpdate.cs" t="Include" />
+        <e p="20201211202514_UserUpdate.Designer.cs" t="Include" />
         <e p="AdvertContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive">
@@ -38,7 +44,9 @@
         <e p="launchSettings.json" t="Include" />
       </e>
       <e p="request" t="Include">
+        <e p="BaseAuthRequest.cs" t="Include" />
         <e p="CreateAdvertRequest.cs" t="Include" />
+        <e p="CreateUserRequest.cs" t="Include" />
         <e p="EditAdvertRequest.cs" t="Include" />
       </e>
       <e p="Startup.cs" t="Include" />

@@ -1,6 +1,6 @@
 ﻿namespace gustav_v2.request
 {
-    public class CreateAdvertRequest
+    public class CreateAdvertRequest : BaseAuthRequest
     {
         public string District { get; set; }
         public string Street { get; set; }

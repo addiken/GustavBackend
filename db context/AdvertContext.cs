@@ -6,7 +6,7 @@ namespace gustav_v2.db_context
     public class AdvertContext : DbContext
     {
         public DbSet<Advert> Advert { get; set; }
-        
+        public DbSet<User> Users { get; set; }
         public AdvertContext()
         {
         //    Database.EnsureCreated();

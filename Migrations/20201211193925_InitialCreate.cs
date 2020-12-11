@@ -19,7 +19,9 @@ namespace gustav_v2.Migrations
                     Floor = table.Column<int>(type: "int", nullable: false),
                     Rooms = table.Column<int>(type: "int", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Price = table.Column<long>(type: "bigint", nullable: false)
+                    Price = table.Column<long>(type: "bigint", nullable: false),
+                    OwnerName = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    OwnerPhone = table.Column<long>(type: "bigint", nullable: false)
                 },
                 constraints: table =>
                 {

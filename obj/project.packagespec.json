@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\alexb\\RiderProjects\\gustav_v2\\gustav_v2.csproj",
+    "projectUniqueName": "C:\\Users\\alexb\\RiderProjects\\GustavBackend\\gustav_v2.csproj",
     "projectName": "gustav_v2",
-    "projectPath": "C:\\Users\\alexb\\RiderProjects\\gustav_v2\\gustav_v2.csproj",
-    "outputPath": "C:\\Users\\alexb\\RiderProjects\\gustav_v2\\obj\\",
+    "projectPath": "C:\\Users\\alexb\\RiderProjects\\GustavBackend\\gustav_v2.csproj",
+    "outputPath": "C:\\Users\\alexb\\RiderProjects\\GustavBackend\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "net50"
