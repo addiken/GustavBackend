@@ -48,7 +48,17 @@ namespace gustav_v2.Controllers
             }
             return null;
         }
-
+        [HttpDelete]
+        [Route("api/DeleteUser")]
+        public void DeleteUser(int id)
+        {
+            using (AdvertContext db = new AdvertContext())
+            {
+                User user = db.Users.Find(id);
+                if (user != null){ db.Users.Remove(user); }
+                db.SaveChanges();
+            }
+        }
         [HttpPost]
         [Route("api/CreateUser")]
         public void CreateUser(CreateUserRequest request)

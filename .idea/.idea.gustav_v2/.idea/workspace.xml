@@ -22,44 +22,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2150be8d-0263-4236-9eb0-9ac0703d0945" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.vs/gustav_v2/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/gustav_v2/config/applicationhost.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/gustav_v2/v16/.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/UserController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Migrations/20201211201524_User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Migrations/20201211202514_UserUpdate.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Migrations/20201211202514_UserUpdate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request/BaseAuthRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request/CreateUserRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.gustav_v2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.gustav_v2/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="2150be8d-0263-4236-9eb0-9ac0703d0945" name="Default Changelist" comment="Add User and check">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.gustav_v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.gustav_v2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/gustav_v2/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/gustav_v2/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/gustav_v2/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/gustav_v2/v16/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/AdvertController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AdvertController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20201128074035_InitialCreate.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/20201211201524_User.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20201128074035_InitialCreate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/20201211193925_InitialCreate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20201128081017_addOwner.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/20201211193925_InitialCreate.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/20201128081017_addOwner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/AdvertContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/AdvertContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/UserController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/gustav_v2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/gustav_v2.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/gustav_v2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/gustav_v2.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/ref/gustav_v2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/ref/gustav_v2.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db context/AdvertContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/db context/AdvertContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/gustav_v2.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/gustav_v2.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/gustav_v2.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/gustav_v2.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/gustav_v2.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/gustav_v2.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/gustav_v2.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/gustav_v2.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/gustav_v2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/gustav_v2.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/gustav_v2.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/gustav_v2.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/gustav_v2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/gustav_v2.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/ref/gustav_v2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/ref/gustav_v2.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/gustav_v2.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/gustav_v2.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/request/CreateAdvertRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/request/CreateAdvertRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/request/EditAdvertRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/request/EditAdvertRequest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,16 +46,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/entity/Advert.cs" />
         <option value="$PROJECT_DIR$/Startup.cs" />
-        <option value="$PROJECT_DIR$/request/CreateAdvertRequest.cs" />
-        <option value="$PROJECT_DIR$/request/EditAdvertRequest.cs" />
         <option value="$PROJECT_DIR$/db context/AdvertContext.cs" />
         <option value="$PROJECT_DIR$/request/CreateUserRequest.cs" />
-        <option value="$PROJECT_DIR$/Controllers/AdvertController.cs" />
         <option value="$PROJECT_DIR$/request/BaseAuthRequest.cs" />
         <option value="$PROJECT_DIR$/entity/User.cs" />
         <option value="$PROJECT_DIR$/Controllers/UserController.cs" />
+        <option value="$PROJECT_DIR$/entity/Advert.cs" />
+        <option value="$PROJECT_DIR$/request/CreateAdvertRequest.cs" />
+        <option value="$PROJECT_DIR$/request/EditAdvertRequest.cs" />
+        <option value="$PROJECT_DIR$/Controllers/AdvertController.cs" />
       </list>
     </option>
   </component>
@@ -162,8 +136,22 @@
       <workItem from="1607072106171" duration="604000" />
       <workItem from="1607708860003" duration="3375000" />
       <workItem from="1607713646654" duration="844000" />
-      <workItem from="1607715068232" duration="5165000" />
+      <workItem from="1607715068232" duration="7887000" />
+      <workItem from="1607751066647" duration="992000" />
+      <workItem from="1607789116135" duration="2114000" />
+      <workItem from="1607793063023" duration="2330000" />
+      <workItem from="1607854201633" duration="4973000" />
+      <workItem from="1607880149127" duration="944000" />
+      <workItem from="1607881214331" duration="1321000" />
     </task>
+    <task id="LOCAL-00001" summary="Add User and check">
+      <created>1607720617635</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607720617635</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,12 +172,14 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Add User and check" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add User and check" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="377" y="49" width="1118" height="954" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607714478834">
+    <state x="377" y="49" width="1118" height="954" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607881087324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="377" y="49" width="1118" height="954" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607714478834" />
+    <state x="377" y="49" width="1118" height="954" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607881087324" />
     <state x="804" y="392" key="Github.ShareDialog" timestamp="1607030906201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -198,22 +188,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="665" y="157" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607030913439" />
-    <state width="1867" height="267" key="GridCell.Tab.0.bottom" timestamp="1607719981159">
+    <state width="1867" height="267" key="GridCell.Tab.0.bottom" timestamp="1607881948110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607719981159" />
-    <state width="1867" height="267" key="GridCell.Tab.0.center" timestamp="1607719981159">
+    <state width="1867" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607881948110" />
+    <state width="1867" height="267" key="GridCell.Tab.0.center" timestamp="1607881948110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607719981159" />
-    <state width="1867" height="267" key="GridCell.Tab.0.left" timestamp="1607719981159">
+    <state width="1867" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607881948110" />
+    <state width="1867" height="267" key="GridCell.Tab.0.left" timestamp="1607881948110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607719981159" />
-    <state width="1867" height="267" key="GridCell.Tab.0.right" timestamp="1607719981159">
+    <state width="1867" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607881948110" />
+    <state width="1867" height="267" key="GridCell.Tab.0.right" timestamp="1607881948110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607719981159" />
+    <state width="1867" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607881948110" />
     <state x="585" y="121" key="RiderGenerateDialog" timestamp="1607719533594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -222,5 +212,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="351" y="78" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607030875126" />
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1607720621650">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607720621650" />
   </component>
 </project>

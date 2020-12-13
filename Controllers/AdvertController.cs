@@ -33,6 +33,25 @@ namespace gustav_v2.Controllers
             }
         }
         [HttpGet]
+        [Route("api/GetUserAdverts")]
+        public IEnumerable<Advert> GetU(long phone)
+        {
+            List<Advert> adverts;
+            List<Advert> radverts = new List<Advert>();
+            using (AdvertContext db = new AdvertContext())
+            {
+                adverts = db.Advert.ToList();
+            }
+            foreach (var advert in adverts)
+            {
+                if (advert.OwnerPhone == phone)
+                {
+                    radverts.Add(advert);
+                }
+            }
+            return radverts;
+        }
+        [HttpGet]
         [Route("api/GetAdvert")]
         public Advert Get(int id)
         {
@@ -94,7 +113,7 @@ namespace gustav_v2.Controllers
         
         [HttpDelete]
         [Route("api/DeleteAdvert")]
-        public void DeleteTask(int id, string phone, string password)
+        public void DeleteAdvert(int id, string phone, string password)
         {
             ValidateUser(phone, password);
             using (AdvertContext db = new AdvertContext())
@@ -107,11 +126,20 @@ namespace gustav_v2.Controllers
 
         private void ValidateUser(string phone, string password)
         {
-            if (!phone.Equals("9788618697") || !password.Equals("password"))
+            List<User> users;
+            using (AdvertContext db = new AdvertContext())
             {
-                throw new UnauthorizedAccessException();
+                users = db.Users.ToList();
             }
-            
+            int i = 0;
+            foreach (var u in users)
+            {
+                if (phone.Equals(u.Phone) && password.Equals(u.Password))
+                {
+                    i++;
+                } 
+            }
+            if(i != 1){throw new UnauthorizedAccessException();}
         }
     }
 }
